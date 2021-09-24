@@ -79,6 +79,17 @@ body {
   background-color: #f44336;
   border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: auto;
+    position: static;
+  }
+
+  .top-navbar {
+    position: static;
+  }
+}
 /* end of navbar */
 
 
